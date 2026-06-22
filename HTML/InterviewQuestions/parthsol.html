@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Interview Questions</title>
+
+    <style>
+        li::marker{
+            color:red;
+        }
+
+        .multicolor .red{
+            color:red;
+        }
+
+        .multicolor .blue{
+            color:blue;
+        }
+
+        .multicolor .green{
+            color:green;
+        }
+
+        .bg-demo{
+            background-image:url('background.jpg');
+            background-size:cover;
+            height:200px;
+            color:white;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>1. How will you start an ordered list from 10?</h2>
+
+<p>Use the start attribute.</p>
+
+<pre>
+&lt;ol start="10"&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+
+<hr>
+
+<h2>2. What input type will you use to upload an image?</h2>
+
+<pre>
+&lt;input type="file" accept="image/*"&gt;
+</pre>
+
+<hr>
+
+<h2>3. Name any 5 HTML5 tags.</h2>
+
+<ul>
+    <li>&lt;header&gt;</li>
+    <li>&lt;footer&gt;</li>
+    <li>&lt;section&gt;</li>
+    <li>&lt;article&gt;</li>
+    <li>&lt;nav&gt;</li>
+</ul>
+
+<hr>
+
+<h2>4. What is DNS and when does it come into the picture?</h2>
+
+<p>
+DNS (Domain Name System) converts a domain name into an IP address.
+It comes into use whenever a user enters a website URL in a browser.
+</p>
+
+<hr>
+
+<h2>5. What is Markup?</h2>
+
+<p>
+Markup is a way of structuring content using tags.
+HTML is called a Markup Language because it uses tags to describe content.
+</p>
+
+<hr>
+
+<h2>6. SEO (Knowledge of Basics)</h2>
+
+<p>
+SEO (Search Engine Optimization) improves a website's visibility on search engines.
+</p>
+
+<ul>
+    <li>Use proper heading tags.</li>
+    <li>Add meta descriptions.</li>
+    <li>Use semantic HTML.</li>
+    <li>Add alt attributes to images.</li>
+    <li>Improve page speed.</li>
+</ul>
+
+<hr>
+
+<h2>7. What is Inspect Element?</h2>
+
+<p>
+Inspect Element is a browser developer tool used to view and debug HTML, CSS and JavaScript.
+</p>
+
+<hr>
+
+<h2>8. Explain Webpage Designing.</h2>
+
+<p>
+Webpage designing is the process of creating the structure, appearance and user experience of a website.
+</p>
+
+<hr>
+
+<h2>9. How will you open another window using an anchor tag?</h2>
+
+<pre>
+&lt;a href="https://www.google.com" target="_blank"&gt;
+    Open Google
+&lt;/a&gt;
+</pre>
+
+<hr>
+
+<h2>10. What does the viewport meta tag do?</h2>
+
+<pre>
+&lt;meta name="viewport"
+content="width=device-width, initial-scale=1.0"&gt;
+</pre>
+
+<p>
+It makes web pages responsive on different screen sizes.
+</p>
+
+<hr>
+<hr>
+
+<h2>11. What are Attributes in HTML?</h2>
+
+<p>
+Attributes provide additional information about HTML elements.
+</p>
+
+<pre>
+&lt;a href="https://google.com"&gt;Google&lt;/a&gt;
+</pre>
+
+<p>Here, href is an attribute.</p>
+
+<hr>
+
+<h2>12. What is DNS?</h2>
+
+<p>
+DNS stands for Domain Name System. It translates domain names into IP addresses.
+</p>
+
+<hr>
+
+<h2>13. What is an IP Address?</h2>
+
+<p>
+An IP Address is a unique numerical address assigned to a device on a network.
+</p>
+
+<p>Example: 192.168.1.1</p>
+
+<hr>
+
+<h2>14. What is localhost?</h2>
+
+<p>
+Localhost refers to the current computer being used.
+Its default IP address is 127.0.0.1.
+</p>
+
+<hr>
+
+<h2>15. HTML5 vs HTML4</h2>
+
+<table border="1">
+    <tr>
+        <th>HTML4</th>
+        <th>HTML5</th>
+    </tr>
+
+    <tr>
+        <td>No native audio/video support</td>
+        <td>Native audio/video support</td>
+    </tr>
+
+    <tr>
+        <td>Fewer semantic tags</td>
+        <td>More semantic tags</td>
+    </tr>
+
+    <tr>
+        <td>Limited form controls</td>
+        <td>New input types</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>16. What are Semantic Tags?</h2>
+
+<p>
+Semantic tags clearly describe the meaning of the content they contain.
+</p>
+
+<pre>
+&lt;header&gt;
+&lt;nav&gt;
+&lt;main&gt;
+&lt;section&gt;
+&lt;article&gt;
+&lt;footer&gt;
+</pre>
+
+<hr>
+
+<h2>17. What are the new features in HTML5?</h2>
+
+<ul>
+    <li>Semantic Elements</li>
+    <li>Audio and Video Support</li>
+    <li>Canvas API</li>
+    <li>Local Storage</li>
+    <li>Geolocation API</li>
+    <li>Drag and Drop</li>
+    <li>New Input Types</li>
+</ul>
+
+<hr>
+
+<h2>18. Difference between div and span</h2>
+
+<table border="1">
+    <tr>
+        <th>div</th>
+        <th>span</th>
+    </tr>
+
+    <tr>
+        <td>Block-level element</td>
+        <td>Inline element</td>
+    </tr>
+
+    <tr>
+        <td>Takes full width</td>
+        <td>Takes only required width</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>19. Difference between Class and ID</h2>
+
+<table border="1">
+    <tr>
+        <th>Class</th>
+        <th>ID</th>
+    </tr>
+
+    <tr>
+        <td>Can be used multiple times</td>
+        <td>Must be unique</td>
+    </tr>
+
+    <tr>
+        <td>Uses . selector in CSS</td>
+        <td>Uses # selector in CSS</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>20. What are Self-Closing Tags?</h2>
+
+<p>
+Self-closing tags do not require a closing tag.
+</p>
+
+<pre>
+&lt;br&gt;
+&lt;hr&gt;
+&lt;img&gt;
+&lt;input&gt;
+&lt;meta&gt;
+&lt;link&gt;
+</pre>
+
+<hr>
+
+<h2>21. How many types of headings are there? How to decide which to use?</h2>
+
+<p>
+HTML provides six heading levels:
+</p>
+
+<pre>
+&lt;h1&gt; to &lt;h6&gt;
+</pre>
+
+<ul>
+    <li>h1 → Main page title</li>
+    <li>h2 → Major section</li>
+    <li>h3 → Subsection</li>
+    <li>h4-h6 → Smaller subheadings</li>
+</ul>
+
+<hr>
+
+<h2>22. Difference between Block and Inline Elements</h2>
+
+<table border="1">
+    <tr>
+        <th>Block Element</th>
+        <th>Inline Element</th>
+    </tr>
+
+    <tr>
+        <td>Starts on a new line</td>
+        <td>Does not start on a new line</td>
+    </tr>
+
+    <tr>
+        <td>Takes full width</td>
+        <td>Takes only required width</td>
+    </tr>
+
+    <tr>
+        <td>Example: div, p</td>
+        <td>Example: span, a</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>23. Difference between em and strong</h2>
+
+<table border="1">
+    <tr>
+        <th>em</th>
+        <th>strong</th>
+    </tr>
+
+    <tr>
+        <td>Emphasized text</td>
+        <td>Strong importance</td>
+    </tr>
+
+    <tr>
+        <td>Usually italic</td>
+        <td>Usually bold</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>24. What are Attributes?</h2>
+
+<p>
+Attributes provide additional information about HTML elements.
+</p>
+
+<pre>
+&lt;img src="image.jpg" alt="Image"&gt;
+</pre>
+
+<p>src and alt are attributes.</p>
+
+<hr>
+
+<h2>25. Difference between HTML Tags and Elements</h2>
+
+<table border="1">
+    <tr>
+        <th>Tag</th>
+        <th>Element</th>
+    </tr>
+
+    <tr>
+        <td>&lt;p&gt;</td>
+        <td>&lt;p&gt;Hello&lt;/p&gt;</td>
+    </tr>
+
+    <tr>
+        <td>Opening or closing syntax</td>
+        <td>Complete structure including content</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>26. Explain br Tag.</h2>
+
+<p>
+The &lt;br&gt; tag inserts a line break without starting a new paragraph.
+</p>
+
+<pre>
+Hello&lt;br&gt;World
+</pre>
+
+<hr>
+
+<h2>27. What are Semantic Tags?</h2>
+
+<p>
+Semantic tags provide meaning to the content and improve SEO and accessibility.
+</p>
+
+<pre>
+&lt;header&gt;
+&lt;main&gt;
+&lt;section&gt;
+&lt;article&gt;
+&lt;aside&gt;
+&lt;footer&gt;
+</pre>
+
+<hr>
+
+<h2>28. Write code to create an ordered list with Roman numbers</h2>
+
+<ol type="I">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+
+<hr>
+
+<h2>29. Write code to create an unordered list with circle</h2>
+
+<ul type="circle">
+    <li>Apple</li>
+    <li>Mango</li>
+    <li>Orange</li>
+</ul>
+
+<hr>
+
+<h2>30. Write code to create a link to https://www.prepbytes.com</h2>
+
+<a href="https://www.prepbytes.com" target="_blank">
+    Visit PrepBytes
+</a>
+
+<hr>
+
+<h2>31. Write code to insert an image</h2>
+
+<img src="./water.jpg" alt="Water Image" width="300">
+
+<hr>
+
+<h2>32. Create a table with Name and Salary columns and two entries</h2>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Salary</th>
+    </tr>
+    <tr>
+        <td>Parth</td>
+        <td>50000</td>
+    </tr>
+    <tr>
+        <td>Rahul</td>
+        <td>60000</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>33. Create a form containing Name, Age, Email and Contact</h2>
+
+<form>
+    Name:
+    <input type="text"><br><br>
+
+    Age:
+    <input type="number"><br><br>
+
+    Email:
+    <input type="email"><br><br>
+
+    Contact:
+    <input type="tel"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<h2>34. Create a table and achieve colspan</h2>
+
+<table border="1">
+    <tr>
+        <th colspan="2">Employee Details</th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th>Salary</th>
+    </tr>
+    <tr>
+        <td>Parth</td>
+        <td>50000</td>
+    </tr>
+</table>
+
+<p><b>Explanation:</b> colspan merges multiple columns into one cell.</p>
+
+<hr>
+
+<h2>35. Create radio buttons and checkboxes</h2>
+
+<h3>Course</h3>
+
+<input type="radio" name="course"> MERN
+<input type="radio" name="course"> MEAN
+
+<h3>Technology</h3>
+
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+<input type="checkbox"> React
+<input type="checkbox"> Node
+
+<p>
+<b>Difference:</b><br>
+Radio Button → Select only one option.<br>
+Checkbox → Select multiple options.
+</p>
+
+<hr>
+
+<h2>36. How many types of heading does HTML contain?</h2>
+
+<p>HTML contains 6 heading tags:</p>
+
+<h1>H1</h1>
+<h2>H2</h2>
+<h3>H3</h3>
+<h4>H4</h4>
+<h5>H5</h5>
+<h6>H6</h6>
+
+<hr>
+
+<h2>37. Which heading has highest priority and least priority?</h2>
+
+<p>Highest Priority → h1</p>
+<p>Least Priority → h6</p>
+
+<hr>
+
+<h2>38. How to create a hyperlink in HTML?</h2>
+
+<a href="https://www.google.com">
+    Google
+</a>
+
+<hr>
+
+<h2>39. Which HTML tag is used to display data in tabular form?</h2>
+
+<p>The &lt;table&gt; tag is used to display tabular data.</p>
+
+<hr>
+
+<h2>40. Why do we use colgroup tag in table?</h2>
+
+<table border="1">
+    <colgroup>
+        <col style="background-color:yellow">
+    </colgroup>
+
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+
+    <tr>
+        <td>Parth</td>
+        <td>22</td>
+    </tr>
+</table>
+
+<p>Used to apply styles and properties to table columns.</p>
+
+<hr>
+
+<h2>41. What are some common lists used when designing a page?</h2>
+
+<ul>
+    <li>Ordered List (ol)</li>
+    <li>Unordered List (ul)</li>
+    <li>Definition List (dl)</li>
+</ul>
+
+<hr>
+
+<h2>42. Write a structure of definition list</h2>
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Hyper Text Markup Language</dd>
+
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+</dl>
+
+<hr>
+
+<h2>43. What do dl, dt and dd mean?</h2>
+
+<ul>
+    <li>dl → Definition List</li>
+    <li>dt → Definition Term</li>
+    <li>dd → Definition Description</li>
+</ul>
+
+<hr>
+
+<h2>44. Difference between HTML elements and tags</h2>
+
+<p>
+Tag Example: &lt;p&gt;<br>
+Element Example: &lt;p&gt;Hello World&lt;/p&gt;
+</p>
+
+<p>
+An element includes opening tag, content and closing tag.
+</p>
+
+<hr>
+
+<h2>45. What is Semantic HTML?</h2>
+
+<header>Header</header>
+<nav>Navigation</nav>
+<section>Section</section>
+<article>Article</article>
+<footer>Footer</footer>
+
+<p>
+Semantic HTML uses meaningful tags that describe content.
+</p>
+
+<hr>
+
+<h2>46. What is an Image Map?</h2>
+
+<img src="./water.jpg" usemap="#mymap" alt="Water Image">
+
+<map name="mymap">
+    <area shape="rect"
+          coords="0,0,100,100"
+          href="https://www.google.com">
+</map>
+
+<p>
+Image maps make different areas of an image clickable.
+</p>
+
+<hr>
+
+<h2>47. How to insert a copyright symbol on a browser page?</h2>
+
+<p>&copy; 2026 Parth Singh</p>
+
+<hr>
+
+<h2>48. How to create a nested webpage in HTML?</h2>
+
+<iframe src="index.html"
+        width="400"
+        height="200">
+</iframe>
+
+<hr>
+
+<h2>49. What is the use of iframe and how to create it?</h2>
+
+<iframe src="https://www.wikipedia.org"
+        width="500"
+        height="300">
+</iframe>
+
+<p>
+Iframe is used to embed another webpage inside the current webpage.
+</p>
+
+<hr>
+
+<h2>50. Which iframe attributes are important?</h2>
+
+<ul>
+    <li>src</li>
+    <li>width</li>
+    <li>height</li>
+    <li>title</li>
+    <li>name</li>
+</ul>
+
+<hr>
+
+<h2>51. Does a hyperlink only apply to text?</h2>
+
+<a href="https://www.google.com">
+    <img src="./water.jpg" width="150" alt="Water">
+</a>
+
+<p>
+No. Hyperlinks can be applied to images, buttons, icons and text.
+</p>
+
+<hr>
+
+<h2>52. What is a style sheet?</h2>
+
+<p>
+A style sheet (CSS) controls the appearance and layout of HTML elements.
+</p>
+
+<hr>
+
+<h2>53. Can you create a multi-colored text on a web page?</h2>
+
+<p class="multicolor">
+    <span class="red">Red</span>
+    <span class="blue">Blue</span>
+    <span class="green">Green</span>
+</p>
+
+<hr>
+
+<h2>54. Is it possible to change the color of the bullet?</h2>
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+
+<p>Yes, using the ::marker pseudo-element.</p>
+
+<hr>
+
+<h2>55. Explain the layout of HTML</h2>
+
+<header>
+    Header
+</header>
+
+<nav>
+    Navigation Menu
+</nav>
+
+<main>
+    Main Content Area
+</main>
+
+<aside>
+    Sidebar
+</aside>
+
+<footer>
+    Footer
+</footer>
+
+<hr>
+
+<h2>56. What is a marquee?</h2>
+
+<marquee>
+    Welcome to My Website
+</marquee>
+
+<p>Marquee creates scrolling text (deprecated in HTML5).</p>
+
+<hr>
+
+<h2>57. How to make a picture the background image of a web page?</h2>
+
+<p>
+Use the <code>background</code> attribute of the body tag:
+</p>
+
+<pre>
+&lt;body background="background.jpg"&gt;
+</pre>
+<hr>
+
+<h2>58. How many tags can be used to separate a section of texts?</h2>
+<p>
+Common tags used to separate sections of text are:
+&lt;br&gt;, &lt;hr&gt;, &lt;p&gt;, &lt;div&gt;, &lt;section&gt;
+</p>
+
+<hr>
+
+<h2>59. What are empty elements?</h2>
+<p>
+Empty elements are HTML elements that do not have a closing tag or content.
+Examples: &lt;br&gt;, &lt;hr&gt;, &lt;img&gt;, &lt;input&gt;, &lt;meta&gt;
+</p>
+
+<hr>
+
+<h2>60. What is the use of a span tag? Give one example.</h2>
+
+<p>
+The span tag is used to group inline elements.
+</p>
+
+<span>Hello World</span>
+
+<hr>
+
+<h2>61. What is the use of an iframe tag?</h2>
+
+<p>
+The iframe tag is used to embed another webpage inside the current webpage.
+</p>
+
+<iframe src="https://www.wikipedia.org"
+        width="400"
+        height="200">
+</iframe>
+
+<hr>
+
+<h2>62. What are the entities in HTML?</h2>
+
+<p>
+Entities are special codes used to display reserved characters.
+</p>
+
+<p>&lt; = &amp;lt;</p>
+<p>&gt; = &amp;gt;</p>
+<p>&copy; = Copyright Symbol</p>
+
+<hr>
+
+<h2>63. Why is a URL encoded in HTML?</h2>
+
+<p>
+URL encoding converts special characters into a format that can be transmitted over the Internet safely.
+</p>
+
+<hr>
+
+<h2>64. Does &lt;!DOCTYPE html&gt; tag is a HTML tag?</h2>
+
+<p>
+No. It is a declaration that tells the browser to use HTML5.
+</p>
+
+<hr>
+
+<h2>65. What is the canvas element in HTML5?</h2>
+
+<p>
+Canvas is used to draw graphics using JavaScript.
+</p>
+
+<canvas width="200" height="100"></canvas>
+
+<hr>
+
+<h2>66. What is SVG?</h2>
+
+<p>
+SVG (Scalable Vector Graphics) is used to create vector graphics in XML format.
+</p>
+
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40"></circle>
+</svg>
+
+<hr>
+
+<h2>67. What are the different new form element types in HTML5?</h2>
+
+<ul>
+    <li>email</li>
+    <li>url</li>
+    <li>date</li>
+    <li>number</li>
+    <li>range</li>
+    <li>color</li>
+    <li>tel</li>
+</ul>
+
+<hr>
+
+<h2>68. Is there any need to change the web browsers to support HTML5?</h2>
+
+<p>
+No. Modern browsers already support HTML5.
+</p>
+
+<hr>
+
+<h2>69. Which type of video formats are supported by HTML5?</h2>
+
+<ul>
+    <li>MP4</li>
+    <li>WebM</li>
+    <li>Ogg</li>
+</ul>
+
+<hr>
+
+<h2>70. Is audio tag supported in HTML5?</h2>
+
+<p>Yes.</p>
+
+<audio controls>
+    <source src="./sound.mp3" type="audio/mpeg">
+</audio>
+
+<hr>
+
+<h2>71. What is the difference between progress and meter tag?</h2>
+
+<p>
+Progress tag shows task completion progress.
+</p>
+
+<progress value="60" max="100"></progress>
+
+<p>
+Meter tag shows a measurement within a known range.
+</p>
+
+<meter value="7" min="0" max="10"></meter>
+
+<hr>
+
+<h2>72. What is the use of figure tag in HTML5?</h2>
+
+<p>
+The figure tag groups images, diagrams or illustrations.
+</p>
+
+<figure>
+    <img src="./water.jpg" width="150" alt="water">
+</figure>
+
+<hr>
+
+<h2>73. What is the use of figcaption tag in HTML5?</h2>
+
+<figure>
+    <img src="./water.jpg" width="150" alt="water">
+    <figcaption>Sample Image</figcaption>
+</figure>
+
+<hr>
+
+<h2>74. What is button tag?</h2>
+
+<button>Click Me</button>
+
+<p>
+The button tag creates a clickable button.
+</p>
+
+<hr>
+
+<h2>75. What is the use of details and summary tag?</h2>
+
+<details>
+    <summary>Click Here</summary>
+    <p>This content is hidden until expanded.</p>
+</details>
+
+<hr>
+
+<h2>76. What is datalist tag?</h2>
+
+<input list="browsers">
+
+<datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Edge">
+</datalist>
+
+<p>
+Datalist provides predefined suggestions for an input field.
+</p>
+
+<hr>
+
+<h2>77. How are tags migrated from HTML4 to HTML5?</h2>
+
+<p>
+HTML5 introduced semantic tags such as:
+&lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;article&gt;, &lt;footer&gt;.
+Some old tags like &lt;font&gt; were removed.
+</p>
+
+<hr>
+
+<h2>78. If I do not put &lt;!DOCTYPE html&gt; will HTML5 work?</h2>
+
+<p>
+Yes, but the browser may enter Quirks Mode and render the page incorrectly.
+</p>
+
+<hr>
+
+<h2>79. What is the use of the required attribute in HTML5?</h2>
+
+<form>
+    Name:
+    <input type="text" required>
+
+    <input type="submit">
+</form>
+
+<p>
+The required attribute makes a field mandatory.
+</p>
+
+<hr>
+
+<h2>80. What are the new input types for form validation in HTML5?</h2>
+
+<ul>
+    <li>email</li>
+    <li>url</li>
+    <li>number</li>
+    <li>date</li>
+    <li>tel</li>
+    <li>range</li>
+    <li>color</li>
+</ul>
+
+<hr>
+
+<h2>81. HTML is case-sensitive or not?</h2>
+
+<p>
+HTML is not case-sensitive.
+</p>
+
+<hr>
+
+<h2>82. When are comments used in HTML?</h2>
+
+<p>
+Comments are used to explain code and make it easier to understand.
+</p>
+
+<!-- This is a comment -->
+
+<hr>
+
+<h2>83. What are Attributes and how do you use them?</h2>
+
+<p>
+Attributes provide additional information about HTML elements.
+</p>
+
+<a href="https://www.google.com">Google</a>
+
+<p>
+Here href is an attribute.
+</p>
+
+<hr>
+
+<h2>84. What do you mean by for attribute in label tag?</h2>
+
+<label for="username">Username</label>
+<input type="text" id="username">
+
+<p>
+The for attribute connects a label with an input field.
+</p>
+
+<hr>
+
+<h2>85. How to create a Hyperlink in HTML?</h2>
+
+<a href="https://www.google.com">
+    Visit Google
+</a>
+
+<hr>
+
+<h2>86. Name some common lists that are used when designing a page.</h2>
+
+<ul>
+    <li>Ordered List (ol)</li>
+    <li>Unordered List (ul)</li>
+    <li>Definition List (dl)</li>
+</ul>
+
+<hr>
+
+<h2>87. Which attribute is required in input tag?</h2>
+
+<p>
+Commonly used attributes are:
+type, name, id, value, placeholder, required.
+</p>
+
+<hr>
+
+<h2>88. What do you mean by MARKUP language and hypertext in HTML?</h2>
+
+<p>
+Markup Language uses tags to structure content on a webpage.
+</p>
+
+<p>
+Hypertext is text containing links that connect one document to another.
+</p>
+<hr>
+
+<h2>89. How are active links different from normal links?</h2>
+
+<p>
+Normal Link: A link that has not been clicked.
+</p>
+
+<p>
+Active Link: A link that is currently being clicked by the user.
+</p>
+
+<hr>
+
+<h2>90. What happens if there is no text between the tags? Does this affect the display of the HTML file?</h2>
+
+<p></p>
+
+<p>
+No error occurs. The element is created but nothing is displayed.
+</p>
+
+<hr>
+
+<h2>91. What are the limits of the text field size?</h2>
+
+<input type="text" size="20" maxlength="50">
+
+<p>
+size = visible width of the input field.<br>
+maxlength = maximum number of characters allowed.
+</p>
+
+<hr>
+
+<h2>92. What is the relationship between the border and rule attributes?</h2>
+
+<table border="1" rules="all">
+    <tr>
+        <td>HTML</td>
+        <td>CSS</td>
+    </tr>
+</table>
+
+<p>
+border specifies the table border thickness.<br>
+rules specifies which internal borders should be displayed.
+</p>
+
+<hr>
+
+<h2>93. What is Cell Spacing and Cell Padding?</h2>
+
+<table border="1" cellspacing="10" cellpadding="10">
+    <tr>
+        <td>HTML</td>
+        <td>CSS</td>
+    </tr>
+</table>
+
+<p>
+Cell Spacing → Space between cells.<br>
+Cell Padding → Space between cell content and cell border.
+</p>
+
+<hr>
+
+<h2>94. What is difference between HTML and XHTML?</h2>
+
+<table border="1">
+    <tr>
+        <th>HTML</th>
+        <th>XHTML</th>
+    </tr>
+
+    <tr>
+        <td>Not case sensitive</td>
+        <td>Case sensitive</td>
+    </tr>
+
+    <tr>
+        <td>Less strict</td>
+        <td>Stricter syntax rules</td>
+    </tr>
+
+    <tr>
+        <td>Tags may remain unclosed</td>
+        <td>All tags must be closed</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>95. How many types of CSS can be included in HTML?</h2>
+
+<p>
+There are three types of CSS:
+</p>
+
+<ol>
+    <li>Inline CSS</li>
+    <li>Internal CSS</li>
+    <li>External CSS</li>
+</ol>
+
+<hr>
+
+<h2>96. What are logical and physical tags in HTML?</h2>
+
+<p>
+Logical Tags describe meaning:
+</p>
+
+<em>Emphasized Text</em><br>
+<strong>Important Text</strong>
+
+<p>
+Physical Tags describe appearance:
+</p>
+
+<b>Bold Text</b><br>
+<i>Italic Text</i>
+
+<hr>
+
+<h2>97. How can you apply JavaScript to a web page?</h2>
+
+<button onclick="showMessage()">
+    Click Me
+</button>
+
+<script>
+function showMessage(){
+    alert("Hello World");
+}
+</script>
+
+<p>
+JavaScript can be added using the script tag.
+</p>
+
+<hr>
+
+<h2>98. How to make radio buttons and checkboxes and how to implement them?</h2>
+
+<h3>Course</h3>
+
+<input type="radio" name="course" value="MERN"> MERN
+<input type="radio" name="course" value="MEAN"> MEAN
+
+<h3>Technology</h3>
+
+<input type="checkbox" value="HTML"> HTML
+<input type="checkbox" value="CSS"> CSS
+<input type="checkbox" value="React"> React
+<input type="checkbox" value="Node"> Node
+
+<p>
+Radio buttons allow only one selection.<br>
+Checkboxes allow multiple selections.
+</p>
+
+<hr>
+
+<h2>99. What is the main reason or advantage of label tag?</h2>
+
+<label for="username">
+    Username
+</label>
+
+<input type="text" id="username">
+
+<p>
+The label tag improves accessibility and allows users to focus the input field by clicking on the label text.
+</p>
+
+<hr>
+
+<h2>100. How will you implement when you click on submit button your whole data comes in URL form?</h2>
+
+<form action="welcome.html" method="get">
+
+    Name:
+    <input type="text" name="username">
+
+    <br><br>
+
+    Email:
+    <input type="email" name="email">
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+<p>
+Using method="get" sends form data through the URL.
+</p>
+
+<p>
+Example URL:<br>
+welcome.html?username=Parth&email=abc@gmail.com
+</p>
+
+</body>
+</html>
